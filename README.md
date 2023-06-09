@@ -13,7 +13,7 @@ This JavaScript program takes a JSON object containing revenue and expense data 
 
 To use the balance sheet calculator, follow these steps:
 
-1. Open the `balance-sheet.js` file in a text editor or JavaScript IDE.
+1. Open the `Balance_sheet_calc.js` file in a text editor or JavaScript IDE.
 2. Update the `jsonData` object in the code with your revenue and expense data.
 3. Save the changes.
 4. In the terminal, navigate to the directory where the code files are located.
