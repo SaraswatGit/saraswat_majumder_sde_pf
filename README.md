@@ -1,31 +1,13 @@
-Certainly! Here's an example of a README file for the given code:
-
----
-
 # Balance Sheet Calculator
 
-This JavaScript program takes a JSON object containing revenue and expense data for a company and calculates the balance sheet month-wise. The program outputs the balance sheet as a JSON object with the amount and start date for each month, sorted in ascending order by timestamp.
+This JavaScript program takes a JSON object containing revenue and expense data for a company and calculates the balance sheet month-wise.
 
 ## Table of Contents
 
-- [Installation](#installation)
 - [Usage](#usage)
 - [Input Format](#input-format)
 - [Output Format](#output-format)
 - [Example](#example)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Installation
-
-1. Clone the repository or download the code files.
-2. Make sure you have Node.js installed on your machine.
-3. Open a terminal and navigate to the directory where the code files are located.
-4. Run the following command to install the necessary dependencies:
-
-   ```bash
-   npm install
-   ```
 
 ## Usage
 
@@ -58,7 +40,6 @@ The input JSON object should have the following structure:
       "amount": 1500,
       "startdate": "2023-02-01T00:00:00.000Z"
     },
-    ...
   ],
   "expenses": [
     {
@@ -69,7 +50,6 @@ The input JSON object should have the following structure:
       "amount": 1000,
       "startdate": "2023-03-10T00:00:00.000Z"
     },
-    ...
   ]
 }
 ```
