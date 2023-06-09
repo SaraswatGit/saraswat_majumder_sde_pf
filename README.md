@@ -7,7 +7,6 @@ This JavaScript program takes a JSON object containing revenue and expense data 
 - [Usage](#usage)
 - [Input Format](#input-format)
 - [Output Format](#output-format)
-- [Example](#example)
 
 ## Usage
 
@@ -71,20 +70,8 @@ The output of the program is a JSON object with the following structure:
       "amount": 4000,
       "startdate": "2023-02-01T00:00:00.000Z"
     },
-    ...
   ]
 }
 ```
 
 The `balance` array contains objects representing the balance for each month. Each object has an `amount` field representing the calculated balance for the month and a `startdate` field with the start date of the month.
-
-## Example
-
-Here's an example usage of the balance sheet calculator:
-
-```javascript
-const jsonData = {
-  "revenues": [
-    { "amount": 1000, "startdate": "2023-01-01T00:00:00.000Z" },
-    { "amount": 1500, "startdate": "2023-02-01T00:00:00.000Z" },
-    { "amount": 2000, "startdate": "2023# saraswat_majumder_sde_pf
